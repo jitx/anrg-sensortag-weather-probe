@@ -136,7 +136,7 @@ To automate sensor data collection on your machine or SBC, use the programming l
 
 An example written in Python 2 with `pexpect` is provided.
 
-### Dependencies of Example
+#### Dependencies of Example
 
 - [bluez 4.101](http://www.kernel.org/pub/linux/bluetooth/)
 
@@ -159,5 +159,5 @@ The example reads stdout from `gatttool` and may not work on bluez5 or newer due
 - [SmartRF Flash Programmer v2](http://www.ti.com/tool/download/FLASH-PROGRAMMER-2)
 - [Install bluez on the Raspberry Pi](https://learn.adafruit.com/install-bluez-on-the-raspberry-pi/installation)
 
-v1.0.1
+v1.0.2
 March 15, 2019
