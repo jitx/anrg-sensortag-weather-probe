@@ -136,6 +136,12 @@ To automate sensor data collection on your machine or SBC, use the programming l
 
 An example written in Python 2 with `pexpect` is provided.
 
+### Dependencies of Example
+
+- [bluez 4.101](http://www.kernel.org/pub/linux/bluetooth/)
+
+The example reads stdout from `gatttool` and may not work on bluez5 or newer due to a change in stdout implementation. Follow [this guide](https://learn.adafruit.com/install-bluez-on-the-raspberry-pi/installation) to downgrade `gatttool` if needed.
+
 ---
 
 ### References
@@ -151,6 +157,7 @@ An example written in Python 2 with `pexpect` is provided.
 - [Download CCS](http://processors.wiki.ti.com/index.php/Download_CCS)
 - [Bluetooth low energy software stack](http://www.ti.com/tool/BLE-Stack)
 - [SmartRF Flash Programmer v2](http://www.ti.com/tool/download/FLASH-PROGRAMMER-2)
+- [Install bluez on the Raspberry Pi](https://learn.adafruit.com/install-bluez-on-the-raspberry-pi/installation)
 
-v1.0
-March 14, 2019
+v1.0.1
+March 15, 2019
